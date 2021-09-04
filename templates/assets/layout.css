@@ -1,0 +1,79 @@
+#wpwrap {
+  background-color:#f1f1f1;
+}
+.container {
+    width: 100%;
+}
+.nav-tabs a.nav-link { 
+    color: #000;
+    background-color: #fefefe;
+    font-weight: 600;
+    border: 1px solid #ccc; 
+}
+.nav-tabs a.nav-link:focus {
+  outline: none;
+  box-shadow:none;
+}
+/* .alert {
+  background:#fff;
+  box-shadow: 0 0 10px 2px #e8e8e8;
+  margin-bottom:20px;
+} */
+.tab-inner-content {
+  border-radius: 2px;
+  background:#fff;
+  box-shadow: 0 0 10px 4px #e8e8e8;
+}
+.tab-summery {
+  padding:25px 20px;
+} 
+.form-control { 
+  font-family: "Roboto", sans-serif;
+  border: 1px solid #a0a0a0 !important;
+  color: #000 !important;
+}
+input[type=checkbox]:focus, input[type=file]:focus, input[type=radio]:focus {outline:none;}
+.form-group > label {
+   font-weight: 600;
+    color: #484848;  
+    font-size: 14px;
+}
+input[type=color], input[type=date], input[type=datetime-local], input[type=datetime], input[type=email], input[type=month], input[type=number], input[type=password], input[type=search], input[type=tel], input[type=text], input[type=time], input[type=url], input[type=week], select, textarea{
+  color: #484848;  
+  font-size: 14px;
+}
+.btn[data-toggle="tooltip"] {
+  padding:0;
+}
+.tab-content {
+    margin: 24px 0px;
+}
+
+div#exTab2 {
+    position: relative;
+    z-index: 9;
+    padding: 20px;
+}
+
+.btn-group .btn { margin-right:15px;border-radius: 4px !important; }
+
+.mntll-color {
+    color: #fff;
+    background-color: rgba(243,146,0,1) !important;
+    border-color: rgba(243,146,0,1) !important;
+}
+
+.mntll-color:hover {
+    color: #fff;
+    background-color: rgba(228,0,58,1) !important;
+    border-color: rgba(228,0,58,1) !important;
+}
+
+.external-url{
+    font-size: 12px;
+    color: rgba(228,0,58,1) !important;
+}
+
+.external-url:hover{
+    text-decoration: underline;
+}

@@ -1,0 +1,251 @@
+#wpwrap {
+  background-color:#efefef;
+}
+ul#adminmenu a.wp-has-current-submenu:after, ul#adminmenu>li.current>a.current:after {
+  border-right-color: #ccc;
+}
+.container {
+    width: 100%;
+}
+.site_logo {
+   margin-top: 20px;
+}
+.site_logo img {
+    max-width: 300px;
+}
+.site_tab {
+    margin: 25px 0;
+}
+.nav-tabs>li { padding:12px; }
+.nav-tabs>li>a { 
+  border:none !important;padding-bottom:5px;
+  padding:0;
+  color: #000;
+  font-weight: 600; 
+  background-color: transparent !important;
+  margin-right: 0;
+  border-radius: 0;
+}
+.nav>li>a:focus,.nav-tabs>li.active>a,.nav>li>a:hover {
+    outline-offset: -2px;
+    border-bottom: 2px solid #FF9800 !important;
+    outline: none;
+    background-color: transparent !important;
+    color: #000 !important;
+    box-shadow:none;
+}
+.tab-inner-content {
+  border-radius: 2px;
+  background:#fff;
+  border:1px solid #a0a0a0;
+}
+.tab-header {
+  padding: 12px 20px;
+  font-weight: 700;
+  font-size: 1.2em;
+}
+.tab-header + .tab-summery {
+  border-top:1px solid #a0a0a0;
+}
+.tab-summery {
+  padding:25px 20px;
+}
+.form-control { 
+  font-family: "Roboto", sans-serif;
+  border: 1px solid #a0a0a0 !important;
+  color: #000 !important;
+}
+.form-wrap label {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+input[type=checkbox]:focus, input[type=file]:focus, input[type=radio]:focus {outline:none;}
+
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"],.btn  {
+  -webkit-appearance: none;
+  cursor: pointer;
+  border-radius:0;
+  position: relative;
+  border:none !important;
+  background: rgba(228,0,58,1);
+  background: -moz-linear-gradient(left, rgba(228,0,58,1) 0%, rgba(243,146,0,1) 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, rgba(228,0,58,1)), color-stop(100%, rgba(243,146,0,1)));
+  background: -webkit-linear-gradient(left, rgba(228,0,58,1) 0%, rgba(243,146,0,1) 100%);
+  background: -o-linear-gradient(left, rgba(228,0,58,1) 0%, rgba(243,146,0,1) 100%);
+  background: -ms-linear-gradient(left, rgba(228,0,58,1) 0%, rgba(243,146,0,1) 100%);
+  background: linear-gradient(to right, rgba(228,0,58,1) 0%, rgba(243,146,0,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e4003a', endColorstr='#f39200', GradientType=1 );
+  border-radius: 4px;
+  color: #ffffff;
+  display: inline-block;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 18px;
+  padding: 10px 25px;
+  transition: .3s all;
+}
+
+button:hover,
+input[type="button"]:hover,
+input[type="reset"]:hover,
+input[type="submit"]:hover,.btn:hover {
+  text-decoration:none;
+  background: rgba(243,146,0,1);
+  background: -moz-linear-gradient(left, rgba(243,146,0,1) 0%, rgba(228,0,57,1) 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, rgba(243,146,0,1)), color-stop(100%, rgba(228,0,57,1)));
+  background: -webkit-linear-gradient(left, rgba(243,146,0,1) 0%, rgba(228,0,57,1) 100%);
+  background: -o-linear-gradient(left, rgba(243,146,0,1) 0%, rgba(228,0,57,1) 100%);
+  background: -ms-linear-gradient(left, rgba(243,146,0,1) 0%, rgba(228,0,57,1) 100%);
+  background: linear-gradient(to right, rgba(243,146,0,1) 0%, rgba(228,0,57,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f39200', endColorstr='#e40039', GradientType=1 );
+  color: #fff;
+
+}
+label.col-form-label {
+   font-weight: 600;
+    color: #484848;  
+    font-size: 13px;
+}
+.mt-25 { margin-top:25px; }
+.site_tab_footer {
+    clear: both;
+    padding: 23px 20px;
+}
+.site_tab_footer p {
+    font-weight: 600;
+    color: #000;
+    width: 39%;
+    padding-top: 25px;
+    font-size: 13px;
+}
+.form-control + .input-msg {
+  display:block;padding-top:8px;
+}
+.form-control + .input-msg strong { color:green; }
+.input-wrap {
+    display: inline-block;
+    margin:0 5px;
+}
+.tab-content {
+    margin: 65px 0px 30px;
+}
+
+.table>tbody>tr>td,.table>thead>tr>th {
+    padding: 9px 8px;
+    border: 1px solid #a0a0a0 !important;
+}
+div#license .table {
+    margin-bottom: 40px;
+    background:#fff;
+    border:1px solid #a0a0a0;
+}
+a#edit {
+    color: red;
+}
+div#exTab2 {
+    position: relative;
+    z-index: 9;
+}
+#exTab2 .tab-content {
+    margin: 24px 0px 0px 0px;
+    padding: 0px 0px;
+}
+
+div#message b {
+    color: green;
+    border: 1px solid green;
+    padding: 11px;
+    border-radius: 32px;
+    width: 100%;
+}
+.btn_new {
+    text-align: center;
+    margin: 18px 0px;
+}
+/* Adding loader image */
+#loader {
+ width: 100%;
+ height: 100%;
+ z-index: 9999;
+ padding: 30px 10px 30px 10px;
+}
+
+#loader .fa-spin{
+    color: #474747;
+}
+
+/* Alert styling */
+
+.alert h4 {
+  margin-top: 0;
+  color: inherit;
+}
+.alert .alert-link {
+  font-weight: bold;
+}
+.alert > p,
+.alert > ul {
+  margin-bottom: 0;
+}
+.alert > p + p {
+  margin-top: 5px;
+}
+.alert-dismissable,
+.alert-dismissible {
+  padding-right: 35px;
+}
+.alert-dismissable .close,
+.alert-dismissible .close {
+  position: relative;
+  top: -2px;
+  right: -21px;
+  color: inherit;
+}
+.alert-success {
+  background-color: #dff0d8;
+  border-color: #d6e9c6;
+  color: #3c763d;
+}
+.alert-success hr {
+  border-top-color: #c9e2b3;
+}
+.alert-success .alert-link {
+  color: #2b542c;
+}
+.alert-info {
+  background-color: #d9edf7;
+  border-color: #bce8f1;
+  color: #31708f;
+}
+.alert-info hr {
+  border-top-color: #a6e1ec;
+}
+.alert-info .alert-link {
+  color: #245269;
+}
+.alert-warning {
+  background-color: #fcf8e3;
+  border-color: #faebcc;
+  color: #8a6d3b;
+}
+.alert-warning hr {
+  border-top-color: #f7e1b5;
+}
+.alert-warning .alert-link {
+  color: #66512c;
+}
+.alert-danger {
+  background-color: #f2dede;
+  border-color: #ebccd1;
+  color: #a94442;
+}
+.alert-danger hr {
+  border-top-color: #e4b9c0;
+}
+.alert-danger .alert-link {
+  color: #843534;
+}

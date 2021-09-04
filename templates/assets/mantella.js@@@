@@ -1,0 +1,6 @@
+jQuery(document).ready(function(){
+	 jQuery('#edit').click(function(){
+	     jQuery('#table').hide();
+	     jQuery('#license-second').show();
+	 });
+});
